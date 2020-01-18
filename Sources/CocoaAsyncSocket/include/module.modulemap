@@ -1,0 +1,5 @@
+module CocoaAsyncSocket {
+    header "../GCDAsyncSocket.h"
+    header "../GCDAsyncUdpSocket.h"
+    export *
+}

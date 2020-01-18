@@ -24,13 +24,13 @@ Updated and maintained by Deusty LLC and the Apple development community.
                   'version, but is designed specifically for UDP. This includes queued non-blocking send/receive operations, full ' \
                   'delegate support, run-loop based, self-contained class, and support for IPv4 and IPv6.'
 
-  s.source_files = 'Source/GCD/*.{h,m}'
+  s.source_files = 'Sources/CocoaAsyncSocket/*.{h,m}'
 
   s.requires_arc = true
 
-  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
-  s.osx.deployment_target = '10.8'
+  s.osx.deployment_target = '10.10'
 
   s.ios.frameworks = 'CFNetwork', 'Security'
   s.tvos.frameworks = 'CFNetwork', 'Security'
