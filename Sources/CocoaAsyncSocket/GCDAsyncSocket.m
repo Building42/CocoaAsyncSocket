@@ -11,10 +11,9 @@
 #import "GCDAsyncSocket.h"
 
 #if TARGET_OS_IPHONE
-#import <CFNetwork/CFNetwork.h>
+@import CFNetwork;
 #endif
 
-#import <TargetConditionals.h>
 #import <arpa/inet.h>
 #import <fcntl.h>
 #import <ifaddrs.h>

@@ -8,10 +8,7 @@
 //  https://github.com/robbiehanson/CocoaAsyncSocket
 //
 
-#import <Foundation/Foundation.h>
-#import <dispatch/dispatch.h>
-#import <TargetConditionals.h>
-#import <Availability.h>
+@import Foundation;
 
 NS_ASSUME_NONNULL_BEGIN
 extern NSString *const GCDAsyncUdpSocketException;
